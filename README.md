@@ -56,7 +56,7 @@ services, billing information, and churn status (Yes/No).
 1. Clone this repository:
 
 git clone https://github.com/FaizanMabood/Customer-Churn-Analysis.git
-cd Costomer-Churn-Analysis
+cd Customer-Churn-Analysis
 
 2. Install dependencies:
 
