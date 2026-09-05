@@ -51,3 +51,21 @@ services, billing information, and churn status (Yes/No).
 - scikit-learn (Logistic Regression, Decision Tree, Random Forest, train/test split, metrics)
 - Matplotlib / Seaborn (visualisations)
 - Jupyter Notebook
+
+## How to Run the Notebook
+1. Clone this repository:
+
+git clone https://github.com/FaizanMabood/Customer-Churn-Analysis.git
+cd Costomer-Churn-Analysis
+
+2. Install dependencies:
+
+pip install pandas numpy scipy scikit-learn matplotlib seaborn jupyter
+
+3. Launch Jupyter and open the notebook:
+
+jupyter notebook Customer_Churn_Analysis.ipynb
+
+4. Run all cells (`Cell → Run All`). The notebook downloads the dataset directly from the
+   IBM GitHub repository, so no manual data download is required.
+5. To inspect the raw SQL separately, open `churn_queries.sql`.
